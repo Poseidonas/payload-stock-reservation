@@ -1,6 +1,6 @@
 # payload-stock-reservation
 
-[![npm](https://img.shields.io/npm/v/payload-stock-reservation?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-stock-reservation) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square)
+[![npm](https://img.shields.io/npm/v/payload-stock-reservation?style=flat-square&color=0F766E)](https://www.npmjs.com/package/payload-stock-reservation) ![node](https://img.shields.io/badge/node-%3E%3D20-339933?style=flat-square) ![license](https://img.shields.io/badge/license-MIT-6C757D?style=flat-square) ![payload](https://img.shields.io/badge/Payload-3.88+-0a0c0b?style=flat-square)
 
 Validates the stock and the price of a variant before a Payload checkout reaches the payment provider, which `@payloadcms/plugin-ecommerce` never does, and holds what it validated until the payment settles or the hold expires.
 
@@ -10,6 +10,8 @@ Validates the stock and the price of a variant before a Payload checkout reaches
 - No admin components, so it survives minor releases
 
 ## Install
+
+Requires **Payload 3.88 or newer** and **`@payloadcms/plugin-ecommerce` 3.88 or newer**. Verified against Payload 3.88.0 with the official plugin installed.
 
 ```bash
 pnpm add payload-stock-reservation
