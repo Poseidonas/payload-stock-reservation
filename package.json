@@ -15,7 +15,7 @@
   "bugs": "https://github.com/Poseidonas/payload-stock-reservation/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Poseidonas/payload-stock-reservation"
+    "url": "git+https://github.com/Poseidonas/payload-stock-reservation.git"
   },
   "license": "MIT",
   "author": "George Vasiliades (https://github.com/Poseidonas)",
