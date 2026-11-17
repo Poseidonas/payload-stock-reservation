@@ -1,6 +1,6 @@
 {
   "name": "payload-stock-reservation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validates variant stock and price for Payload ecommerce, which the official plugin never does, and holds stock from checkout until payment settles.",
   "keywords": [
     "payload",
